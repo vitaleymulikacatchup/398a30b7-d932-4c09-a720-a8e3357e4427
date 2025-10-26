@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -12,7 +12,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Award, Users, Target, Lightbulb, Trophy, Briefcase, Code, Palette, Zap, DollarSign, Star, TrendingUp, CheckCircle, Heart, MessageSquare, Building2, Github, Linkedin, Twitter, Dribbble } from "lucide-react";
+import { Award, Users, Target, Lightbulb, Trophy, Briefcase, Code, Palette, Zap, DollarSign, Star, TrendingUp, CheckCircle, Heart, MessageSquare, Building2, Linkedin, Twitter, Github, Dribbble } from "lucide-react";
 
 export default function Home() {
   return (
@@ -157,11 +157,11 @@ export default function Home() {
               imageAlt: "Sarah Johnson, Creative Director",
               socialLinks: [
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com/in/sarahjohnson"
                 },
                 {
-                  icon: "Twitter",
+                  icon: Twitter,
                   url: "https://twitter.com/sarahj"
                 }
               ]
@@ -174,11 +174,11 @@ export default function Home() {
               imageAlt: "Mike Chen, Lead Developer",
               socialLinks: [
                 {
-                  icon: "Github",
+                  icon: Github,
                   url: "https://github.com/mikechen"
                 },
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com/in/mikechen"
                 }
               ]
@@ -191,11 +191,11 @@ export default function Home() {
               imageAlt: "Emily Rodriguez, UX Designer",
               socialLinks: [
                 {
-                  icon: "Dribbble",
+                  icon: Dribbble,
                   url: "https://dribbble.com/emilyrodriguez"
                 },
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com/in/emilyrodriguez"
                 }
               ]
@@ -208,11 +208,11 @@ export default function Home() {
               imageAlt: "David Kim, Marketing Strategist",
               socialLinks: [
                 {
-                  icon: "Twitter",
+                  icon: Twitter,
                   url: "https://twitter.com/davidkim"
                 },
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com/in/davidkim"
                 }
               ]
